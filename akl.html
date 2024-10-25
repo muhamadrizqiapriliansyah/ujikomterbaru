@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kelas OTKP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+        }
+        header {
+            background-color: #af4c7d;
+            color: rgb(255, 255, 255);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery-item {
+            background: rgb(126, 73, 108);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 5px solid #74356b;
+        }
+        .description {
+            padding: 15px;
+            text-align: center;
+        }
+        .description h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .description p {
+            color: #202f30;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #af4c7d;
+            color: white;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galeri Kelas AKL</h1>
+    <p>Menampilkan momen-momen terbaik dari kelas kami</p>
+</header>
+
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="image/akk.jpg" alt="Kegiatan Kelas 1">
+        <div class="description">
+            <h3>Kegiatan Kelas 1</h3>
+            <p>Deskripsi singkat tentang kegiatan ini.</p>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="image/akk1.jpg" alt="Kegiatan Kelas 2">
+        <div class="description">
+            <h3>Kegiatan Kelas 2</h3>
+            <p>Deskripsi singkat tentang kegiatan ini.</p>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="image/akk2.jpg" alt="Kegiatan Kelas 3">
+        <div class="description">
+            <h3>Kegiatan Kelas 3</h3>
+            <p>Deskripsi singkat tentang kegiatan ini.</p>
+        </div>
+    </div>
+    <!-- Tambahkan lebih banyak item galeri di sini -->
+</div>
+
+<footer>
+    <p>&copy; 2024 Kelas AKL. Semua hak dilindungi.</p>
+    <p><a href="#" style="color:white; text-decoration:none;">Kembali ke atas <i class="fas fa-arrow-up"></i></a></p>
+</footer>
+
+</body>
+</html>

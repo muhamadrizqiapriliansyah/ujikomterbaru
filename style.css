@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+   
+   
+}
+.body1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-size: cover;
+    background-image: url(image/brr.jpg);
+   
+}
+
+
+
+header {
+    
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    background-image: url(image/brr.jpg);
+    background-size: cover;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #d40303;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-size: cover;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.image-gallery img {
+    width: 30%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    background-size: 100px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+.achievement-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.achievement-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s;
+    background-color: #979c98;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+h3 {
+    color: #d40303;
+}
+
+
